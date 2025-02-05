@@ -169,3 +169,4 @@ D:\clopez\Documents\Cursos\CrudMVC\CrudMVC\obj\Debug\net8.0\refint\CrudMVC.dll
 D:\clopez\Documents\Cursos\CrudMVC\CrudMVC\obj\Debug\net8.0\CrudMVC.pdb
 D:\clopez\Documents\Cursos\CrudMVC\CrudMVC\obj\Debug\net8.0\CrudMVC.genruntimeconfig.cache
 D:\clopez\Documents\Cursos\CrudMVC\CrudMVC\obj\Debug\net8.0\ref\CrudMVC.dll
+D:\clopez\Documents\Cursos\CrudMVC\CrudMVC\obj\Debug\net8.0\CrudMVC.sourcelink.json

@@ -1,0 +1,39 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model CrudMVC.Models.Empleado;
+<form asp-controller="Empleado" asp-action="Nuevo" method="post" class="row gap-3">
+    <div class="col-sm-8">
+        <h2>Nuevo empleado</h2>
+    </div>
+    <div class="col-sm-4">
+        <button type="submit" class="btn btn-sm btn-primary rounded">Submit</button>
+        <a asp-controller="Empleado" asp-action="Lista" class="btn btn-sm btn-link">Back</a>
+    </div>
+    <div class="col-sm-6">
+        <div class='input-group mb-3'>
+            <span class='input-group-text'>Nombre</span>
+            <input type='text' asp-for="NombreCompleto" class='form-control'>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class='input-group mb-3'>
+            <span class='input-group-text'>Correo</span>
+            <input type='email' asp-for="Correo" class='form-control'>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class='input-group mb-3'>
+            <span class='input-group-text'>Fecha de contrato</span>
+            <input type='date' asp-for="FechaContrato" class='form-control'>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class='input-group mb-3'>
+            <input type='checkbox' asp-for="Activo" class='form-check-input' id="activo">
+            <span class='input-check-label' formaction="check">Activo</span>
+        </div>
+    </div>
+</form>
